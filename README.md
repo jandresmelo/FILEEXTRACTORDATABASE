@@ -41,11 +41,6 @@ Se realiza un **manejo de errores robusto**, registrando los archivos que no pud
   
 ---
 
-## 📂 Estructura del Proyecto
-
-
----
-
 ## 📝 Funciones del Programa
 
 ### 1. `conectar_base_datos()`
@@ -104,7 +99,7 @@ pip install -r requirements.txt
 - **PyPDF2: Para extraer información de los archivos PDF.
 - **psycopg2: Para interactuar con la base de datos PostgreSQL.
 
-
+---
 ## 🗂️ Esquema de Base de Datos
 
 El proyecto utiliza dos tablas principales para almacenar la información extraída y los errores que puedan ocurrir durante el procesamiento:
@@ -140,7 +135,7 @@ CREATE TABLE errores_archivos (
 
 > **Nota:** El esquema de las tablas puede ser modificado o ajustado según tus necesidades. Los scripts SQL para crear estas tablas deben ser insertados manualmente en la carpeta `sql`.
 
----
+--
 
 ## 🖥️ Ejecución del Programa
 
@@ -155,11 +150,8 @@ Asegúrate de tener las siguientes dependencias instaladas antes de ejecutar el 
 pip install -r requirements.txt
 ```
 
----
+--
 
 Este es el contenido para el archivo **`README.md`**. Puedes copiarlo y pegarlo en el archivo que desees crear en tu repositorio de **GitHub**. Asegúrate de personalizar la sección de **Contacto** y el enlace de **Licencia**, si es necesario.
 
 ¡Espero que te sea útil! 😊
-
-
-
